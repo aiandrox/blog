@@ -1,7 +1,7 @@
 custom_css = [] 
 custom_js = [] 
 description = "The Zzo theme for Hugo example site." 
-logoText = "タイトル" 
+logoText = "aiandrox.files" 
 logoType = "short" # long, short
 meta_image = "" 
 themecolor = "" 
@@ -71,7 +71,7 @@ tocLevels = ["h2", "h3", "h4"]
 tocPosition = "inner" # inner, outer
 
 # footer
-enableLangChange = true
+enableLangChange = false
 enableThemeChange = true
 showFeedLinks = true
 showPoweredBy = true

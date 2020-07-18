@@ -6,15 +6,15 @@ header:
     paddingY: 0
     align: center
     title:
-      - タイトル
+      - aiandrox.files
     subtitle:
-      - せつめーぶん
+      - もう少しカスタムしたいと思っている。
     titleColor:
-    titleShadow: true
+    titleShadow: false
     titleFontSize: 44
     subtitleColor:
     subtitleCursive: true
-    subtitleFontSize: 18
+    subtitleFontSize: 16
     spaceBetweenTitleSubtitle: 16
 
   - type: img
