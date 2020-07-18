@@ -5,7 +5,7 @@ other = "Search"
 other = "2006-01-02"
 
 [reading-time]
-other = "min read"
+other = "分で読めます"
 
 [tags]
 other = "Tags"
@@ -32,10 +32,10 @@ other = "2006-01-02"
 other = "2006-01-02"
 
 [single-related]
-other = "See Also"
+other = "関連記事"
 
 [single-writtenBy]
-other = "WRITTEN BY"
+other = "Written by"
 
 [toc-label]
 other = "What's on this Page"

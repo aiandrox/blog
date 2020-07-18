@@ -42,14 +42,14 @@ talksGroupByDate = "2006"
 talksPaginate = 5 
 
 # whoami
-bioImageUrl = ""
+bioImageUrl = "/images/whoami/avatar_wide.jpg"
 email = "aiandrox7@gmail.com"
 link = "https://zzossig.io/ko"
 location = "Tokyo, Japan"
 myname = "aiandrox"
 # organization = "Hugo"
 useGravatar = false
-# whoami = "Web Developer"
+whoami = "自己肯定感強いマン"
 
 # sidebar
 enableBio = true 
@@ -72,10 +72,10 @@ tocPosition = "inner" # inner, outer
 
 # footer
 enableLangChange = false
-enableThemeChange = true
+enableThemeChange = false
 showFeedLinks = true
 showPoweredBy = true
-showSocialLinks = true
+showSocialLinks = false
 
 # service
 baiduAnalytics = "" 
@@ -146,14 +146,14 @@ scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 csdn = ""
 dev-to = ""
 douban = ""
-email = "mailto:your@email.com"
-facebook = "http://example.org/"
+email = "mailto:aiandrox7@gmail.com"
+facebook = ""
 gitea = ""
-github = "https://github.com/zzossig/hugo-theme-zzo"
+github = "https://github.com/aiandrox"
 gitlab = ""
 google-plus = ""
 google-scholar = ""
-instagram = ""
+instagram = "https://www.instagram.com/k_end715"
 jianshu = ""
 linkedin = ""
 mastodon = ""
@@ -167,7 +167,7 @@ stack-overflow = ""
 steam = ""
 telegram = ""
 tumblr = ""
-twitter = "http://example.org/"
+twitter = "http://twitter.com/aiandrox"
 weibo = ""
 whatsapp = ""
 xmpp = ""
