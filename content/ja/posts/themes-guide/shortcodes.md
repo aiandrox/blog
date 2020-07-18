@@ -7,8 +7,6 @@ hideToc: false
 enableToc: true
 enableTocContent: true
 tocPosition: inner
-tags:
-- shortcode
 series:
 -
 categories:

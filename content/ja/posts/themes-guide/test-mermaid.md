@@ -5,17 +5,11 @@ description: ダイアグラム系。すごい。
 draft: false
 enableToc: false
 enableTocContent: false
-tags:
-- diagram
-series:
--
-categories:
-- diagram
 libraries:
-- mermaid
+  - mermaid
 image: images/feature2/workflow.png
 series:
-- Themes Guide
+  - Themes Guide
 ---
 
 ```mermaid

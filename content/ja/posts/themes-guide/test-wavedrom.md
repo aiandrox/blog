@@ -6,16 +6,12 @@ draft: false
 enableToc: false
 enableTocContent: false
 tags:
--
-series:
--
-categories:
-- diagram
+  -
 libraries:
-- wavedrom
+  - wavedrom
 image: images/feature1/wave.png
 series:
-- Themes Guide
+  - Themes Guide
 ---
 
 ```wave

@@ -9,12 +9,6 @@ enableToc: true
 enableTocContent: false
 author: Kim
 authorEmoji: 👻
-tags: 
-- emoji
-- gamoji
-- namoji
-- bamoji
-- amoji
 series:
 - Themes Guide
 ---

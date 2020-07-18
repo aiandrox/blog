@@ -9,12 +9,8 @@ enableTocContent: false
 author: Jeus
 authorEmoji: 🎅
 pinned: true
-tags:
-- hugo
 series:
 -
-categories:
-- hugo
 image: images/feature2/color-palette.png
 series:
 - Themes Guide

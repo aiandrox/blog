@@ -9,8 +9,6 @@ tags:
 -
 series:
 -
-categories:
-- diagram
 libraries:
 - chart
 image: images/feature1/graph.png

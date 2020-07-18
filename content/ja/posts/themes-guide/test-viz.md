@@ -6,16 +6,12 @@ draft: false
 enableToc: false
 enableTocContent: false
 tags:
--
-series:
--
-categories:
-- diagram
+  -
 libraries:
-- viz
+  - viz
 image: images/feature2/graph.png
 series:
-- Themes Guide
+  - Themes Guide
 ---
 
 ```viz-dot

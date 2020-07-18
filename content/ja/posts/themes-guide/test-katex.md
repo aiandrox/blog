@@ -9,8 +9,6 @@ tags:
 - 
 series:
 -
-categories:
-- math
 libraries:
 - katex
 image: images/feature2/mathbook.png

@@ -9,8 +9,6 @@ tags:
 -
 series:
 -
-categories:
-- diagram
 libraries:
 - msc
 image: images/feature2/transfer.png

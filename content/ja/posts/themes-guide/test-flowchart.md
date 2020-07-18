@@ -10,9 +10,6 @@ enableTocContent: false
 tags:
 -
 series:
--
-categories:
-- diagram
 libraries:
 - flowchartjs
 image: images/feature1/flowchart.png
