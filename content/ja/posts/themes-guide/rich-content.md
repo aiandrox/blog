@@ -1,7 +1,7 @@
 ---
 title: "Rich Content"
 date: 2019-12-19T12:00:06+09:00
-description: "A brief description of Hugo Shortcodes"
+description: Insta, Youtube, Vimeo, Twitterの埋め込み
 draft: false
 hideToc: false
 enableToc: true

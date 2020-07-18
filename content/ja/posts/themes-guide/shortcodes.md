@@ -1,7 +1,7 @@
 ---
 title: "Shortcodes"
 date: 2020-01-25T06:40:51+09:00
-description: tabs, code-tabs, expand, alert, warning, notice, img, box
+description: タブ、コードタブ、アコーディオン、アラート、画像、一行コード
 draft: false
 hideToc: false
 enableToc: true
@@ -21,13 +21,13 @@ series:
 ## Markdownify box
 
 {{< boxmd >}}
-This is **boxmd** shortcode
+This is **boxmd** shortcode 　内側で\*などを使える
 {{< /boxmd >}}
 
 ## Simple box
 
 {{< box >}}
-This is **box** shortcode
+This is **box** shortcode 　\*などはそのまま表示
 {{< /box >}}
 
 ## Code tabs

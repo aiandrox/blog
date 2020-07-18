@@ -2,7 +2,7 @@
 author: "Hugo Authors"
 title: "Emoji Support"
 date: 2019-12-16T12:00:06+09:00
-description: "Guide to emoji usage in Hugo"
+description: "絵文字"
 draft: false
 hideToc: false
 enableToc: true
