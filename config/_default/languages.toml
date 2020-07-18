@@ -1,13 +1,19 @@
+[ja]
+contentdir = "content/ja"
+languageName = "日本語"
+title = "Hugo Zzo Theme"
+weight = 1
+
 [en]
-  title = "Hugo Zzo Theme"
-  languageName = "English"
-  weight = 1
-  languagedir = "ltr"
-  contentdir = "content/en"
+contentdir = "content/en"
+languageName = "English"
+languagedir = "ltr"
+title = "Hugo Zzo Theme"
+weight = 2
 
 [ko]
-  title = "Hugo Zzo Theme"
-  languageName = "한국어"
-  weight = 2
-  languagedir = "ltr"
-  contentdir = "content/ko"
+contentdir = "content/ko"
+languageName = "한국어"
+languagedir = "ltr"
+title = "Hugo Zzo Theme"
+weight = 3
