@@ -11,7 +11,7 @@ summaryLength = 70
 
 copyright = "&copy;{year}, All Rights Reserved"
 enableEmoji = true
-paginate = 13
+paginate = 20
 rssLimit = 100
 timeout = 10000
 

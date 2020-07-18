@@ -1,6 +1,6 @@
 custom_css = [] 
 custom_js = [] 
-description = "The Zzo theme for Hugo example site." 
+description = "技術ブログだったりコラムだったりエッセイだったり。" 
 logoText = "aiandrox.data" 
 logoType = "short" # long, short
 meta_image = "" 
@@ -27,7 +27,7 @@ showMobileMenuTerms = ["tags", "categories", "series"]
 
 # body
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
-archivePaginate = 13 
+archivePaginate = 20 
 enableBreadcrumb = true 
 enableGoToTop = true 
 enablePhotoSwipe = true 

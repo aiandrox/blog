@@ -8,9 +8,9 @@ header:
     title:
       - aiandrox.data
     subtitle:
-      - もう少しカスタムしたいと思っている。
+      - もう少しカスタマイズしたいと思っている。
     titleColor:
-    titleShadow: false
+    titleShadow: true
     titleFontSize: 44
     subtitleColor:
     subtitleCursive: true
