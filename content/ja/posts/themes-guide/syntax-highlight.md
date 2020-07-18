@@ -8,7 +8,6 @@ enableToc: true
 enableTocContent: false
 author: Jeus
 authorEmoji: 🎅
-pinned: true
 series:
 -
 image: images/feature2/color-palette.png

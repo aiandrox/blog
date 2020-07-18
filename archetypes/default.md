@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+lastmod: 
 draft: false
 tags:
   - 
@@ -9,7 +10,7 @@ categories:
   - Vue.js
   - AWS
   - その他
-image: images/languages/ruby.png
+image: images/languages/rails.png
 series:
   - 技術関連
 ---

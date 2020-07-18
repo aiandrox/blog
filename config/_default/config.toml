@@ -1,6 +1,6 @@
 baseURL = "http://example.org"
 theme = "zzo"
-title = "aiandrox.files"
+title = "aiandrox.data"
 
 defaultContentLanguage = "ja"
 defaultContentLanguageInSubdir = true

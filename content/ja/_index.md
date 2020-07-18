@@ -6,7 +6,7 @@ header:
     paddingY: 0
     align: center
     title:
-      - aiandrox.files
+      - aiandrox.data
     subtitle:
       - もう少しカスタムしたいと思っている。
     titleColor:
