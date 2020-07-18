@@ -29,6 +29,7 @@ codeFences = true
 lineNos = true
 lineNumbersInTable = true
 noClasses = false
+style = "monokai"
 [markup.tableOfContents]
 endLevel = 4
 ordered = false

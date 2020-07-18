@@ -198,7 +198,7 @@
         font-family: $title-font;
         font-weight: bold;
         display: inline-block;
-        text-transform: capitalize;
+        // text-transform: capitalize;
         content: "Code";
 
         @include themify($codeblock) {
@@ -567,7 +567,7 @@ li > .language-code {
       font-family: $title-font;
       font-weight: bold;
       display: inline-block;
-      text-transform: capitalize;
+      // text-transform: capitalize;
       content: attr(data-lang);
 
       @include themify($codeblock) {
