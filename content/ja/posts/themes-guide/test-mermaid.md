@@ -14,6 +14,8 @@ categories:
 libraries:
 - mermaid
 image: images/feature2/workflow.png
+series:
+- Themes Guide
 ---
 
 ```mermaid
@@ -90,5 +92,5 @@ Crash --> [*]
 pie
 "Dogs" : 386
 "Cats" : 85
-"Rats" : 15 
+"Rats" : 15
 ```

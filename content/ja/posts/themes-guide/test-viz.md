@@ -14,6 +14,8 @@ categories:
 libraries:
 - viz
 image: images/feature2/graph.png
+series:
+- Themes Guide
 ---
 
 ```viz-dot

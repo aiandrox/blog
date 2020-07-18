@@ -14,12 +14,14 @@ categories:
 libraries:
 - chart
 image: images/feature1/graph.png
+series:
+- Themes Guide
 ---
 
 ```chart
 {
     "type": "bar",
-    "data": 
+    "data":
        {
         "labels": ["One", "Two", "Three", "Four", "Five", "Six"],
         "datasets": [{

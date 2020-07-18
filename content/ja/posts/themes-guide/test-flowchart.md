@@ -15,6 +15,8 @@ categories:
 libraries:
 - flowchartjs
 image: images/feature1/flowchart.png
+series:
+- Themes Guide
 ---
 
 ```flowchart
