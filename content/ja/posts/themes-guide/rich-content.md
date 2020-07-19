@@ -1,6 +1,6 @@
 ---
 title: "Rich Content"
-date: 2019-12-19T12:00:06+09:00
+date: 2018-12-19T12:00:06+09:00
 description: Insta, Youtube, Vimeo, Twitterの埋め込み
 draft: false
 hideToc: false

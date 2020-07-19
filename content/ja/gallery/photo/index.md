@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Photo
 date: 2019-10-31T10:20:16+09:00
 description: Photo Gallery
@@ -17,4 +17,4 @@ images:
 image: images/feature2/gallery.png
 ---
 
-Sample images from [Pixabay](https://pixabay.com)
+Sample images from [Pixabay](https://pixabay.com) -->

@@ -1,6 +1,6 @@
 ---
 title: "JS Sequence Diagram support"
-date: 2019-11-18T12:00:06+09:00
+date: 2018-11-18T12:00:06+09:00
 description: "ふにゃった感じの応答のビジュアル図"
 draft: false
 enableToc: false

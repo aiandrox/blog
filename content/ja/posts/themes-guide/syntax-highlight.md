@@ -1,6 +1,6 @@
 ---
 title: "Syntax highlighting"
-date: 2019-12-18T10:33:41+09:00
+date: 2018-12-18T10:33:41+09:00
 description: "いろんな言語のシンタックスハイライト見本"
 draft: false
 hideToc: false

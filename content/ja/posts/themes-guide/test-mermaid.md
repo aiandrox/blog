@@ -1,7 +1,7 @@
 ---
 title: "Mermaid support"
-date: 2019-11-17T12:00:06+09:00
-description: ダイアグラム系。すごい。
+date: 2018-11-17T12:00:06+09:00
+description: ダイアグラム系。Mermaidすごい。
 draft: false
 enableToc: false
 enableTocContent: false
