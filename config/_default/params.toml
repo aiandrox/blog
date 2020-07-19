@@ -11,7 +11,7 @@ notAllowedTypesInArchive = ["about", "talks", "showcase", "publication", "presen
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "publication", "presentation", "resume"]
 notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
 notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "publication", "presentation", "resume"]
-themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
+themeOptions = ["light", "dark", "hacker", "solarized", "kimbie"]
 
 enablePinnedPosts = true 
 enableUiAnimation = true 
@@ -49,7 +49,7 @@ location = "Tokyo, Japan"
 myname = "aiandrox"
 # organization = "Hugo"
 useGravatar = false
-whoami = "自己肯定感強いマン"
+whoami = "今日も楽しく明日も楽しく"
 
 # sidebar
 enableBio = true 
