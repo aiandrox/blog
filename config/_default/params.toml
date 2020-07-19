@@ -44,7 +44,7 @@ talksPaginate = 5
 # whoami
 bioImageUrl = "/images/whoami/avatar_wide.jpg"
 email = "aiandrox7@gmail.com"
-link = "https://保留"
+link = "https://aiandrox.netlify.app"
 location = "Tokyo, Japan"
 myname = "aiandrox"
 # organization = "Hugo"
