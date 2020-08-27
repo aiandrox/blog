@@ -49,3 +49,9 @@ weight = 5
 # name = "Pub"
 # url = "publication"
 # weight = 7
+
+[[main]]
+identifier = "servises"
+name = "Servises"
+url = "servises"
+weight = 10
