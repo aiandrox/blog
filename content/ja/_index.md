@@ -8,7 +8,7 @@ header:
     title:
       - aiandrox.data
     subtitle:
-      - もう少しカスタマイズしたいと思っている。
+      - 技術ブログだったりエッセイだったり。
     titleColor:
     titleShadow: true
     titleFontSize: 44

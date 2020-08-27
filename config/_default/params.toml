@@ -1,6 +1,6 @@
 custom_css = [] 
 custom_js = [] 
-description = "技術ブログだったりコラムだったりエッセイだったり。" 
+description = "技術ブログだったりエッセイだったり。" 
 logoText = "aiandrox.data" 
 logoType = "short" # long, short
 meta_image = "" 
