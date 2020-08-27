@@ -301,8 +301,8 @@
 
     img {
       display: block;
+      max-width: 600px;
       border-radius: 0.25rem;
-      margin: 0 auto;
     }
 
     p {
@@ -320,6 +320,7 @@
     ul {
       margin-right: 0;
       margin-top: 0;
+      margin-bottom: 1rem;
       padding: 0;
       list-style: disc outside none;
     }
