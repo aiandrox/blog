@@ -42,14 +42,14 @@
         {{ if .Params.image }}<media:content url="{{ .Site.BaseURL }}{{ .Params.image }}" medium="image"><media:title type="html">featured image</media:title></media:content>{{end}}
         {{ if .Params.featured_image }}<media:content url="{{ .Site.BaseURL }}image/{{ .Params.featured_image }}" medium="image"><media:title type="html">featured image</media:title></media:content>{{end}}
         {{ if .Params.meta_image }}<media:content url="{{ .Site.BaseURL }}{{ .Params.meta_image }}" medium="image"><media:title type="html">meta image</media:title></media:content>{{end}}
-        {{ with .Params.tags }}
+        {{ with .Params.categories }}
           {{ range . }}
             {{ with . }}
               <category>{{.}}</category>
             {{ end }}
           {{ end }}
         {{ end }}
-        {{ with .Params.categories }}
+        {{ with .Params.tags }}
           {{ range . }}
             {{ with . }}
               <category>{{.}}</category>
@@ -82,14 +82,14 @@
         {{ if .Params.image }}<media:content url="{{ .Site.BaseURL }}{{ .Params.image }}" medium="image"><media:title type="html">featured image</media:title></media:content>{{end}}
         {{ if .Params.featured_image }}<media:content url="{{ .Site.BaseURL }}image/{{ .Params.featured_image }}" medium="image"><media:title type="html">featured image</media:title></media:content>{{end}}
         {{ if .Params.meta_image }}<media:content url="{{ .Site.BaseURL }}{{ .Params.meta_image }}" medium="image"><media:title type="html">meta image</media:title></media:content>{{end}}
-        {{ with .Params.tags }}
+        {{ with .Params.categories }}
           {{ range . }}
             {{ with . }}
               <category>{{.}}</category>
             {{ end }}
           {{ end }}
         {{ end }}
-        {{ with .Params.categories }}
+        {{ with .Params.tags }}
           {{ range . }}
             {{ with . }}
               <category>{{.}}</category>

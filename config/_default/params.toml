@@ -23,7 +23,7 @@ viewportSize = "normal" # widest, wider, wide, normal, narrow
 homeHeaderType = "text" # text, img, slide
 
 # menu
-showMobileMenuTerms = ["tags", "categories", "series"]
+showMobileMenuTerms = ["categories", "tags", "series"]
 
 # body
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
