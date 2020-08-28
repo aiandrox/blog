@@ -38,20 +38,14 @@ name = "Posts"
 url = "posts"
 weight = 5
 
-# [[main]]
-# identifier = "showcase"
-# name = "Showcase"
-# url = "showcase"
-# weight = 6
+[[main]]
+identifier = "showcase"
+name = "Showcase"
+url = "showcase"
+weight = 6
 
 # [[main]]
 # identifier = "publication"
 # name = "Pub"
 # url = "publication"
 # weight = 7
-
-[[main]]
-identifier = "servises"
-name = "Servises"
-url = "servises"
-weight = 10
