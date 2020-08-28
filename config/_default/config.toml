@@ -16,7 +16,7 @@ rssLimit = 100
 timeout = 10000
 
 enableGitInfo = false
-googleAnalytics = ""
+googleAnalytics = "UA-176747451-1"
 
 [markup]
 [markup.goldmark]
