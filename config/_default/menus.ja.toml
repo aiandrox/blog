@@ -39,9 +39,9 @@ url = "posts"
 weight = 5
 
 [[main]]
-identifier = "showcase"
-name = "Showcase"
-url = "showcase"
+identifier = "services"
+name = "Services"
+url = "showcase/web-services"
 weight = 6
 
 # [[main]]
