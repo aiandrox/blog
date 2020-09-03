@@ -15,6 +15,12 @@
         <a href="https://twitter.com/intent/tweet?text={{ $ctx.Title }}&url={{ $ctx.Permalink | absLangURL }}{{ with $ctx.Params.tags }}&hashtags={{ delimit . "," }}{{ end }}&via={{ .username | default $ctx.Params.author }}" title="{{ i18n "twitter" | default "Twitter" }}" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           {{ partial "svgs/share/twitter.svg" (dict "width" 35 "height" 35) }}
         </a>
+      {{ else if eq (lower .name) "hatebu" }}
+      <a href="http://b.hatena.ne.jp/add?mode=confirm&url={{ $ctx.Permalink | absLangURL }}&title={{ $ctx.Title }}" target="_blank"
+        rel="noreferer" title="{{ i18n "hetebu" | default "はてブ" }}" aria-label="Hatena Share Button"
+        class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        {{ partial "svgs/share/hatebu.svg" (dict "width" 35 "height" 35) }}
+      </a>
       {{ else if eq (lower .name) "reddit" }}
         <a href="https://www.reddit.com/submit?url={{ $ctx.Permalink | absLangURL }}&amp;title={{ $ctx.Title }}" target="_blank" rel="noreferer" title="{{ i18n "reddit" | default "Reddit" }}" aria-label="Reddit Share Button" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&amp;title=' +  encodeURIComponent(document.title)); return false;" class="donation__item" data-type="share">
           {{ partial "svgs/share/reddit.svg" (dict "width" 35 "height" 35) }}

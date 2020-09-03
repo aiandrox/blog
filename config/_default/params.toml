@@ -181,12 +181,14 @@ patreon = ""
 paypal = ""
 wechat = ""
 
-# possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line"]
+# possible share name: ["facebook","twitter", "hatebu", "reddit", "linkedin", "tumblr", "weibo", "douban", "line"]
 [[share]]
 name = "facebook"
 username = ""
 [[share]]
 name = "twitter"
+[[share]]
+name = "hatebu"
 
 [[footerLinks]]
 link = ""
