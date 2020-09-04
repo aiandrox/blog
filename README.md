@@ -1,1 +1,1 @@
-https://aiandrox.netlify.app/
+https://blog.aiandrox.com
