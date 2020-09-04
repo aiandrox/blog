@@ -18,7 +18,7 @@
       {{ else if eq (lower .name) "hatebu" }}
       <a href="http://b.hatena.ne.jp/add?mode=confirm&url={{ $ctx.Permalink | absLangURL }}&title={{ $ctx.Title }}" target="_blank"
         rel="noreferer" title="{{ i18n "hetebu" | default "はてブ" }}" aria-label="Hatena Share Button"
-        class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        class="donation__item" data-type="share">
         {{ partial "svgs/share/hatebu.svg" (dict "width" 35 "height" 35) }}
       </a>
       {{ else if eq (lower .name) "reddit" }}
