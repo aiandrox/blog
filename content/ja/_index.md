@@ -6,9 +6,9 @@ header:
     paddingY: 0
     align: center
     title:
-      - aiandrox.data
+      - blog.aiandrox
     subtitle:
-      - 技術ブログだったりエッセイだったり。
+      - 一応技術ブログ。Ruby中心
     titleColor:
     titleShadow: true
     titleFontSize: 44

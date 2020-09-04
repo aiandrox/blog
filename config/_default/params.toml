@@ -1,7 +1,7 @@
 custom_css = [] 
 custom_js = [] 
-description = "技術ブログだったりエッセイだったり。" 
-logoText = "aiandrox.data" 
+description = "一応技術ブログ。Ruby中心" 
+logoText = "blog.aiandrox" 
 logoType = "short" # long, short
 meta_image = "" 
 themecolor = "" 

@@ -1,9 +1,9 @@
 baseURL = "https://blog.aiandrox.com"
 theme = "zzo"
-title = "aiandrox.data"
+title = "blog.aiandrox"
 
 defaultContentLanguage = "ja"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 
 buildFuture = true
