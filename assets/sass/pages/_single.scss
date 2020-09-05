@@ -105,7 +105,7 @@
 
     h1,
     h2 {
-      padding: 0;
+      padding: 0 0 0.3rem 0;
       color: inherit;
       // font-weight: 900;
       text-rendering: optimizeLegibility;
@@ -126,13 +126,13 @@
     h1 {
       font-size: 1.8rem;
       margin: 3.5rem 0 1.75rem 0;
-      border-bottom: 1px solid #aaa;
+      border-bottom: 1px solid #ddd;
     }
 
     h2 {
       font-size: 1.6rem;
       margin: 3.2rem 0 1.5rem 0;
-      border-bottom: 1px solid #aaa;
+      border-bottom: 1px solid #ddd;
     }
 
     h3 {
@@ -306,7 +306,7 @@
     }
 
     p {
-      margin: 0 0 1.75rem 0;
+      margin: 0 0 1.5rem 0;
       padding: 0;
 
       code:not([class^="language"]) {
@@ -318,11 +318,13 @@
     }
 
     ul {
-      margin-right: 0;
-      margin-top: 0;
-      margin-bottom: 1rem;
+      margin: 1.5rem 0;
       padding: 0;
       list-style: disc outside none;
+
+      li ul {
+        margin: 0 0 0.2rem 0;
+      }
     }
 
     &[data-dir="rtl"] {
