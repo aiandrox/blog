@@ -1,5 +1,5 @@
 .single {
-  padding: 1rem;
+  padding: 1rem 2rem;
   position: relative;
   width: 100%;
   overflow-wrap: break-word;
@@ -199,7 +199,6 @@
         font-family: $title-font;
         font-weight: bold;
         display: inline-block;
-        // text-transform: capitalize;
         content: "Code";
 
         @include themify($codeblock) {
@@ -297,7 +296,8 @@
 
     img {
       display: block;
-      max-width: 600px;
+      width: 100%;
+      max-width: 800px;
       border-radius: 0.25rem;
     }
 
@@ -325,7 +325,7 @@
 
     &[data-dir="rtl"] {
       li {
-        margin-right: 2rem;
+        margin-right: 1.5rem;
       }
 
       blockquote {
@@ -341,7 +341,7 @@
 
     &[data-dir="ltr"] {
       li {
-        margin-left: 2rem;
+        margin-left: 1.5rem;
       }
 
       blockquote {
@@ -571,7 +571,6 @@ li > .language-code {
       font-family: $title-font;
       font-weight: bold;
       display: inline-block;
-      // text-transform: capitalize;
       content: attr(data-lang);
 
       @include themify($codeblock) {
