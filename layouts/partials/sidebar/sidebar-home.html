@@ -25,11 +25,11 @@
         <hr class="hr-fade sidebar-hr" />
         {{ end }}
     {{ end }}
+    {{ partial "taxonomy/taxonomy-tags" . }}
 </div>
 
 <div class="taxo-root">
 {{ partial "taxonomy/taxonomy-categories" . }}
-{{ partial "taxonomy/taxonomy-tags" . }}
 {{ partial "taxonomy/taxonomy-series" . }}
 </div>
 <hr class="hr-fade sidebar-hr" />
