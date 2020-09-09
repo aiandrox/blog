@@ -10,18 +10,20 @@
       font-size: 0.95rem;
 
       @include themify($themes) {
-        color: themed('sidebar-title-color');
+        color: themed("sidebar-title-color");
         &:hover {
-          color: themed('link-hover');
+          color: themed("link-hover");
         }
       }
     }
 
     &__ul {
       margin-left: 0.25rem;
+      line-height: 1.4rem;
       li {
         text-indent: -0.4em;
         padding-left: 0.5em;
+        margin-bottom: 0.2rem;
         &::before {
           padding-right: 0.125rem;
           font-size: 1rem;
@@ -35,7 +37,7 @@
       font-family: $title-font;
       font-size: 0.95rem;
       @include themify($themes) {
-        color: themed('sidebar-li-color');
+        color: themed("sidebar-li-color");
       }
     }
   }
