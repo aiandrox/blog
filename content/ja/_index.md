@@ -2,7 +2,7 @@
 header:
   - type: text
     height: 200
-    paddingX: 50
+    paddingX: 0
     paddingY: 0
     align: center
     title:

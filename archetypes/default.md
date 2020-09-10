@@ -12,7 +12,7 @@ categories:
   - JavaScript
   - AWS
   - その他
-image: images/languages/rails.png
+image: images/logos/rails.png
 series:
   - 技術関連
   - 技術書
