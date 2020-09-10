@@ -30,7 +30,7 @@
     cursor: pointer;
     border-radius: 0.25rem;
     margin: 0.25rem;
-    text-transform: capitalize;
+    // text-transform: capitalize;
 
     @include flexbox();
     @include align-items(center);
