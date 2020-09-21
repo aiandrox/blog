@@ -1,0 +1,15 @@
+info:
+  start:
+    px: 130
+    py: 500
+  fontSize: 30
+Category:
+  start:
+    px: 126
+    py: 100
+tags:
+  start:
+    px: 1025
+    py: 400
+  bgHexColor: "#63b3ab"
+  fontSize: 30
