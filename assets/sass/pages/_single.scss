@@ -182,28 +182,28 @@
       }
     }
 
-    pre > code:not([class^="language"]) {
-      &::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding: 2px 7px;
-        width: 100%;
-        height: 30px;
-        z-index: z("content");
-        line-height: 30px;
-        font-size: 13.8px;
-        font-family: $title-font;
-        font-weight: bold;
-        display: inline-block;
-        content: "Code";
+    // pre > code:not([class^="language"]) {
+    //   &::before {
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     padding: 2px 7px;
+    //     width: 100%;
+    //     height: 30px;
+    //     z-index: z("content");
+    //     line-height: 30px;
+    //     font-size: 13.8px;
+    //     font-family: $title-font;
+    //     font-weight: bold;
+    //     display: inline-block;
+    //     content: "Code";
 
-        @include themify($codeblock) {
-          color: themed("content-pre-header-color");
-          background: themed("content-pre-header-background-color");
-        }
-      }
-    }
+    //     @include themify($codeblock) {
+    //       color: themed("content-pre-header-color");
+    //       background: themed("content-pre-header-background-color");
+    //     }
+    //   }
+    // }
 
     p > code:not([class^="language"]) {
       padding: 0.25rem 0.5rem;
@@ -253,17 +253,17 @@
     .chroma .copy-to-clipboard:hover {
       @include translateY(-0.1rem);
     }
-    .language-code .copy-to-clipboard {
-      position: absolute;
-      right: 4px;
-      top: 5px;
-      border-radius: 2px;
-      z-index: z("clipboard");
-      @include transition(all, 0.2s, ease);
-    }
-    .language-code .copy-to-clipboard:hover {
-      @include translateY(-0.1rem);
-    }
+    // .language-code .copy-to-clipboard {
+    //   position: absolute;
+    //   right: 4px;
+    //   top: 5px;
+    //   border-radius: 2px;
+    //   z-index: z("clipboard");
+    //   @include transition(all, 0.2s, ease);
+    // }
+    // .language-code .copy-to-clipboard:hover {
+    //   @include translateY(-0.1rem);
+    // }
     .highlight > .copy-to-clipboard {
       position: absolute;
       right: 4px;
@@ -489,38 +489,38 @@ pre:not(.chroma) {
   overflow: auto;
 }
 
-.single__contents > .language-code,
-li > .language-code {
-  overflow-x: auto;
-  position: relative;
-  margin: 1rem 0;
-  direction: ltr;
+// .single__contents > .language-code,
+// li > .language-code {
+//   overflow-x: auto;
+//   position: relative;
+//   margin: 1rem 0;
+//   direction: ltr;
 
-  @include on-event {
-    .copy-to-clipboard {
-      opacity: 1;
-    }
-  }
+//   @include on-event {
+//     .copy-to-clipboard {
+//       opacity: 1;
+//     }
+//   }
 
-  &::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    padding: 2px 7px;
-    width: 100%;
-    height: 30px;
-    z-index: z("toc");
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    content: "";
+//   &::after {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     left: 0;
+//     padding: 2px 7px;
+//     width: 100%;
+//     height: 30px;
+//     z-index: z("toc");
+//     border-top-left-radius: 0.25rem;
+//     border-top-right-radius: 0.25rem;
+//     content: "";
 
-    @include themify($codeblock) {
-      color: themed("content-pre-header-color");
-      background: themed("content-pre-header-background-color");
-    }
-  }
-}
+//     @include themify($codeblock) {
+//       color: themed("content-pre-header-color");
+//       background: themed("content-pre-header-background-color");
+//     }
+//   }
+// }
 
 .highlight {
   position: relative;
