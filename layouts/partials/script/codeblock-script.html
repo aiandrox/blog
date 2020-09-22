@@ -13,28 +13,33 @@
           .querySelectorAll("pre > code")
           .forEach(function (elem) {
             var dataLang = elem.getAttribute("data-lang");
-            var dataLangWrapper = document.createElement("div");
+            if (!dataLang) return;
+            // 以下の定義はまあ多分いらないんだけど
             var code = null;
             var codeTitle = null;
 
-            if (dataLang && dataLang.includes(":")) {
+            if (!dataLang.includes(".")) {
+              // 言語のみ指定のとき
+              elem.removeAttribute("data-lang");
+              elem.className = "language-" + dataLang;
+              return;
+            }
+
+            if (dataLang.includes("..")) {
+              // 拡張子以外の言語を強制する場合
+              code = dataLang.split("..")[-1];
+              codeTitle = dataLang.split("..")[0].split(":")[1];
+            } else if (dataLang.includes(":")) {
+              // 普通の拡張子のとき
               code = dataLang.split(":")[0];
               codeTitle = dataLang.split(":")[1];
-
-              dataLangWrapper.className = "language-" + code;
-              dataLangWrapper.setAttribute("data-lang", codeTitle);
-
-              elem.className = "language-" + code;
-              elem.setAttribute("data-lang", codeTitle);
-              elem.setAttribute("id", codeTitle);
-            } else if (!dataLang) {
-              dataLangWrapper.setAttribute("data-lang", "Code");
-              dataLangWrapper.className = "language-code";
+            } else {
+              // :がなくて拡張子のみのとき
+              code = dataLang.split(".")[-1];
+              codeTitle = dataLang;
             }
-
-            if (!dataLang || codeTitle) {
-              wrap(elem.parentNode, dataLangWrapper);
-            }
+            elem.className = "language-" + code;
+            elem.setAttribute("data-lang", codeTitle);
           })
       : null;
   })();
