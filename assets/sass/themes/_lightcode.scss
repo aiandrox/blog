@@ -12,6 +12,7 @@ $lightcode: "";
     content-pre-header-color: #fcfcfa,
   );
 } @else if $theme_light_chroma_background == light {
+  // 現在のテーマ
   $lightcode: (
     content-code-color: #607d8b,
     // default: #26a60a

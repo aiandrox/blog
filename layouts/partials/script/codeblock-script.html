@@ -13,18 +13,26 @@
           .querySelectorAll("pre > code")
           .forEach(function (elem) {
             var dataLang = elem.getAttribute("data-lang");
-            if (!dataLang) return;
-            // 以下の定義はまあ多分いらないんだけど
-            var code = null;
-            var codeTitle = null;
 
-            if (!dataLang.includes(".")) {
+            // タイトルなし
+            if (!dataLang) {
+              // ```の後に何もないとき
+              elem.parentElement.setAttribute("data-lang", "none");
+              return;
+            } else if (!dataLang.includes(".")) {
               // 言語のみ指定のとき
               elem.className = "language-" + dataLang;
               elem.removeAttribute("data-lang");
               return;
             }
 
+            // タイトルあり
+            elem.parentElement.parentElement.parentElement.setAttribute(
+              "data-titled",
+              true
+            );
+            var code = null;
+            var codeTitle = null;
             if (dataLang.includes("..")) {
               // 拡張子以外の言語を強制する場合
               code = dataLang.split("..")[1];
@@ -40,10 +48,6 @@
             }
             elem.className = "language-" + code;
             elem.setAttribute("data-lang", codeTitle);
-            elem.parentElement.parentElement.parentElement.setAttribute(
-              "data-titled",
-              true
-            );
           })
       : null;
   })();

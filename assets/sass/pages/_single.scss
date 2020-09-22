@@ -149,7 +149,8 @@
     }
 
     pre {
-      padding: 8px 12px 8px;
+      // タイトルありハイライトなし
+      padding: 32px 12px 12px;
       margin: 1em 0;
       overflow: auto;
       border-radius: 0.34rem;
@@ -167,6 +168,10 @@
           themed("custom-scrollbar-background-color")
         );
       }
+    }
+    pre[data-lang="none"] {
+      // ハイライトなしタイトルなし
+      padding: 14px 12px;
     }
 
     pre:not(.chroma) {
@@ -189,12 +194,10 @@
         top: 0;
         left: 0;
         z-index: z("grid");
-        padding: 2px 7px;
-        width: 100%;
-        height: 30px;
-        line-height: 1.9;
+        padding: 0 7px;
+        height: 25px;
+        line-height: 1.8;
         font-size: 13.8px;
-        font-family: $title-font;
         font-weight: bold;
         display: inline-block;
         content: attr(data-lang);
@@ -492,7 +495,6 @@ pre:not(.chroma) {
 .highlight > .chroma {
   margin: 1em 0;
   border-radius: 5px;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
   z-index: z("content");
   overflow-x: auto;
   direction: ltr;
@@ -522,8 +524,9 @@ pre:not(.chroma) {
       @include no-select;
 
       pre {
+        // タイトルなしハイライト
         margin: 0;
-        padding: 6px 4px 6px;
+        padding: 12px 4px;
       }
     }
 
@@ -531,14 +534,16 @@ pre:not(.chroma) {
       vertical-align: top;
 
       pre {
+        // タイトルなしハイライト
         margin: 0;
-        padding: 6px 4px 6px;
+        padding: 12px 4px;
       }
     }
   }
 
   tr[data-titled="true"] pre {
-    padding: 34px 4px 6px !important;
+    // タイトルありハイライト
+    padding: 32px 4px 12px !important;
   }
 
   /* LineNumbersTable */
