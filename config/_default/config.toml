@@ -52,3 +52,6 @@ notAlternative = true
 category = "categories"
 series = "series"
 tag = "tags"
+
+[params]
+editBaseURL = "https://github.com/aiandrox/blog/tree/master/content/ja"

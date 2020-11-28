@@ -1,0 +1,5 @@
+{{ if $.Site.Params.editBaseURL }}
+  {{- $filepath := replace .File.Path "\\" "/" -}}
+  {{- $url := printf "%s/%s" $.Site.Params.editBaseURL $filepath -}}
+  <a href="{{ $url }}">✏️</a>
+{{- end }}
