@@ -7,6 +7,8 @@ link: https://aiandrox.github.io/hikikomori_oneday/
 repo: https://github.com/aiandrox/hikikomori_oneday
 pinned: true
 thumb: showcase/hikikomori.png
+tech:
+  - Vue.js
 medias:
   - title: ひきこもりのいちにち （3/9～3/15）１週間でWebサービスを作るイベント - お題「Home」 - Crieit
     url: https://crieit.net/boards/web1week-202003/92dca4690bdf3f3e98638e85b28220ce

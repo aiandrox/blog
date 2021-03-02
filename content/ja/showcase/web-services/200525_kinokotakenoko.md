@@ -7,6 +7,9 @@ link: https://like-ranking.web.app/
 repo: https://github.com/aiandrox/kinokotakenoko_rank
 pinned: true
 thumb: showcase/kinokotakenoko.png
+tech:
+  - Vue.js
+  - Firebase
 medias:
   - title: あなたの熱意が票になる人気投票 （5/18～5/24）１週間でWebサービスを作るイベント - お題「Like」 - Crieit
     url: https://crieit.net/boards/web1week-202005/2191df8e32b59e9ebc1338e2bc46f2b7

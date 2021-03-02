@@ -7,7 +7,14 @@ link: https://hashlog.work
 repo: https://github.com/aiandrox/hashlog
 pinned: true
 thumb: showcase/hashlog.png
+tech:
+  - Ruby on Rails
+  - Vue.js
+  - heroku
+  - Twitter API
 medias:
+  - title: Hashlog - あなたの学習を可視化するツイート記録サービス (@Hash1og) / Twitter
+    url: https://twitter.com/Hash1og
   - title: ポートフォリオレビュー会 vol.1 イベントレポート | RUNTEQ - 公式ブログ
     url: https://blog.runteq.jp/programming-career/portfolio/3060/
   - title: ポートフォリオレビュー会の感想｜aiandrox｜note
