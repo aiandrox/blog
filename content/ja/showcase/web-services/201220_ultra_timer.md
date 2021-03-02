@@ -7,4 +7,7 @@ link: https://aiandrox.github.io/ultra_timer/
 repo: https://github.com/aiandrox/ultra_timer
 pinned: true
 thumb: showcase/ultra_timer.png
+medias:
+  - title: 【人類待望】年の瀬なので「ｳﾙﾄﾗｿｳｯ ＼ﾊｧｲ／」を練習するアプリを作った【ちょうど欲しかった】 - Qiita
+    url: https://qiita.com/aiandrox/items/09ffe4c301e74de668a1
 ---
