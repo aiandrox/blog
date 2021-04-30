@@ -1,4 +1,5 @@
 <article class="summary-classic" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
+  <h5 class="title h5"><a href='{{ .Permalink }}'>{{- with .Params.pinned -}}📌&nbsp;{{- end -}}{{ .Title }}</a> </h5>
   <div class="summary-classic__flex-box" {{ if eq ($.Param "sidebarPosition") "left" }}data-position="left"{{ end }}>
 
     {{ if and (or ($.Param "featured_image") ($.Param "summary_image")) (eq ($.Param "sidebarPosition") "right") }}
@@ -17,7 +18,6 @@
 
     <div class="summary-classic__content">
       <header>
-        <h5 class="title h5"><a href='{{ .Permalink }}'>{{- with .Params.pinned -}}📌&nbsp;{{- end -}}{{ .Title }}</a> </h5>
         <h6 class="subtitle caption">
           <time title="{{ i18n "tooltip-written" }}"
             dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}">📅&nbsp;{{ .Date.Format (i18n "summary-dateformat") }}
@@ -66,7 +66,7 @@
       </a>
     </div>
     {{ end }}
-    
+
   </div>
   <hr />
 </article>
