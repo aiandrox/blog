@@ -24,10 +24,11 @@
       {{ partial "body/toc" . }}
       {{ .Content }}
     </article>
-    
+
     {{ partial "script/codeblock-script" . }}
     {{ partial "body/share" . }}
     {{ partial "body/donation" . }}
+    {{ partial "service/google-adsense" . }}
     {{ partial "body/whoami" . }}
     {{ partial "body/related" . }}
     {{ partial "pagination/pagination-single" . }}
@@ -53,7 +54,7 @@
   var enableToc = JSON.parse({{ $enableToc | jsonify }});
   var toc = JSON.parse({{ $toc | jsonify }});
   var tocPosition = JSON.parse({{ $tocPosition | jsonify }});
-  
+
   var singleMainElem = document.querySelector('.single__main');
   var singleSideElem = document.querySelector('.single__side');
 
