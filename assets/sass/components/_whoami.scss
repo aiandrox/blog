@@ -6,6 +6,7 @@
 
   @include flexbox();
   @media only screen and (max-width: 769px) {
+    align-items: center;
     @include align-items(center);
     @include flex-direction(column);
   }
@@ -31,9 +32,9 @@
     @include box-shadow(0, 2px, 3px, 0, rgba(0, 0, 0, 0.25));
 
     &-wrapper {
-      min-width: 150px;
-      max-width: 150px;
-      height: auto;
+      max-width: 100px;
+      min-width: 100px;
+      height: 100px;
       margin-right: 1rem;
 
       @include flexbox();
@@ -45,18 +46,20 @@
     font-size: 1.5rem;
     font-weight: 700;
     font-family: $title-font;
-    margin-bottom: 0.5rem;
-    padding-bottom: 0.5rem;
 
     @include themify($codeblock) {
       color: themed("content-pre-color");
-      text-decoration: underline double themed("content-pre-main-color");
+      // text-decoration: underline double themed("content-pre-main-color");
     }
   }
 
   &__desc {
-    font-size: 1rem;
-    padding-left: 0.25rem;
+    font-size: 0.9rem;
+    font-family: $title-font;
+    opacity: 0.75;
+    @include themify($codeblock) {
+      color: themed("content-pre-color");
+    }
 
     @media only screen and (max-width: 769px) {
       width: 75%;
@@ -83,15 +86,6 @@
           @include transition(color, 0.2s, ease);
         }
       }
-    }
-  }
-
-  &__written-by {
-    font-size: 0.9rem;
-    font-family: $title-font;
-    opacity: 0.75;
-    @include themify($codeblock) {
-      color: themed("content-pre-color");
     }
   }
 
