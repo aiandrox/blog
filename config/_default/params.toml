@@ -31,16 +31,19 @@ archivePaginate = 20
 enableBreadcrumb = true
 enableGoToTop = true
 enablePhotoSwipe = true
-enableSearch = true
 enableSearchHighlight = true
-searchContent = true
 enableWhoami = true
 paginateWindow = 1
 pubPaginate = 20
-searchResultPosition = "main" # side, main
 summaryShape = "classic" # card, classic, compact
 talksGroupByDate = "2006"
 talksPaginate = 5
+
+# Search
+enableSearch = true
+searchContent = true
+searchDistance = 100
+searchResultPosition = "main" # side, main
 
 # whoami
 bioImageUrl = "/images/whoami/avatar.jpg"
