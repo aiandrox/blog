@@ -33,6 +33,7 @@ enableGoToTop = true
 enablePhotoSwipe = true
 enableSearch = true
 enableSearchHighlight = true
+searchContent = true
 enableWhoami = true
 paginateWindow = 1
 pubPaginate = 20
@@ -46,10 +47,10 @@ bioImageUrl = "/images/whoami/avatar.jpg"
 email = "aiandrox7@gmail.com"
 link = "https://blog.aiandrox.com"
 location = "Tokyo, Japan"
-myname = "aiandrox"
+myname = "END"
 # organization = "Hugo"
 useGravatar = false
-whoami = "今日も楽しく明日も楽しく"
+whoami = "@aiandrox"
 
 # sidebar
 enableBio = true
@@ -66,7 +67,7 @@ enableTocSwitch = true
 hideToc = false
 itemsPerCategory = 5
 sidebarPosition = "right"
-tocFolding = true
+tocFolding = false
 tocLevels = ["h2", "h3", "h4"]
 tocPosition = "outer" # inner, outer
 
