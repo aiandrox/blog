@@ -1,10 +1,10 @@
-custom_css = [] 
-custom_js = [] 
-description = "一応技術ブログ。Ruby中心" 
-logoText = "blog.aiandrox" 
+custom_css = []
+custom_js = []
+description = "一応技術ブログ。Ruby中心"
+logoText = "blog.aiandrox"
 logoType = "short" # long, short
-meta_image = "" 
-themecolor = "" 
+meta_image = ""
+themecolor = ""
 useFaviconGenerator = true # https://www.favicon-generator.org/
 
 notAllowedTypesInArchive = ["about", "talks", "showcase", "publication", "presentation", "resume"]
@@ -13,9 +13,9 @@ notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase",
 notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "publication", "presentation", "resume"]
 themeOptions = ["light", "dark", "hacker", "solarized", "kimbie"]
 
-enablePinnedPosts = true 
-enableUiAnimation = true 
-hideSingleContentsWhenJSDisabled = false 
+enablePinnedPosts = true
+enableUiAnimation = true
+hideSingleContentsWhenJSDisabled = false
 minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
 viewportSize = "normal" # widest, wider, wide, normal, narrow
 
@@ -27,22 +27,22 @@ showMobileMenuTerms = ["categories", "tags", "series"]
 
 # body
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
-archivePaginate = 20 
-enableBreadcrumb = true 
-enableGoToTop = true 
-enablePhotoSwipe = true 
-enableSearch = true 
-enableSearchHighlight = true 
-enableWhoami = true 
-paginateWindow = 1 
-pubPaginate = 20 
+archivePaginate = 20
+enableBreadcrumb = true
+enableGoToTop = true
+enablePhotoSwipe = true
+enableSearch = true
+enableSearchHighlight = true
+enableWhoami = true
+paginateWindow = 1
+pubPaginate = 20
 searchResultPosition = "main" # side, main
 summaryShape = "classic" # card, classic, compact
-talksGroupByDate = "2006" 
-talksPaginate = 5 
+talksGroupByDate = "2006"
+talksPaginate = 5
 
 # whoami
-bioImageUrl = "/images/whoami/avatar_wide.jpg"
+bioImageUrl = "/images/whoami/avatar.jpg"
 email = "aiandrox7@gmail.com"
 link = "https://blog.aiandrox.com"
 location = "Tokyo, Japan"
@@ -52,22 +52,22 @@ useGravatar = false
 whoami = "今日も楽しく明日も楽しく"
 
 # sidebar
-enableBio = true 
-enableBioImage = true 
-enableHomeSidebarTitles = true 
-enableListSidebarTitles = true 
-enableSidebar = true 
-enableSidebarCategories = true 
-enableSidebarPostsByOrder = false 
-enableSidebarSeries = true 
-enableSidebarTags = true 
-enableToc = true 
-enableTocSwitch = true 
-hideToc = false 
-itemsPerCategory = 5 
-sidebarPosition = "right" 
-tocFolding = true 
-tocLevels = ["h2", "h3", "h4"] 
+enableBio = true
+enableBioImage = true
+enableHomeSidebarTitles = true
+enableListSidebarTitles = true
+enableSidebar = true
+enableSidebarCategories = true
+enableSidebarPostsByOrder = false
+enableSidebarSeries = true
+enableSidebarTags = true
+enableToc = true
+enableTocSwitch = true
+hideToc = false
+itemsPerCategory = 5
+sidebarPosition = "right"
+tocFolding = true
+tocLevels = ["h2", "h3", "h4"]
 tocPosition = "outer" # inner, outer
 
 # footer
@@ -78,16 +78,16 @@ showPoweredBy = true
 showSocialLinks = false
 
 # service
-baiduAnalytics = "" 
-busuanziPagePV = true 
-busuanziSitePV = true 
-busuanziSiteUV = true 
-enableBusuanzi = false 
+baiduAnalytics = ""
+busuanziPagePV = true
+busuanziSitePV = true
+busuanziSiteUV = true
+enableBusuanzi = false
 googleTagManager = "" # GTM-XXXXXX
 
 # rss
-fullContents = false 
-updateFrequency = "" 
+fullContents = false
+updateFrequency = ""
 updatePeriod = "" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
 
 # comment
@@ -120,14 +120,14 @@ repo = "" # The repo to store comments
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 [valine]
-appId = '你的appId' 
-appKey = '你的appKey' 
-avatar = 'mm' 
-enable = false 
+appId = '你的appId'
+appKey = '你的appKey'
+avatar = 'mm'
+enable = false
 notify = false # mail notifier , https://github.com/xCss/Valine/wiki
-placeholder = '说点什么吧...' 
+placeholder = '说点什么吧...'
 verify = false # Verification code
-visitor = false 
+visitor = false
 
 [changyan]
 changyanAppid = "" # Changyan app id             # 畅言
@@ -139,7 +139,7 @@ livereUID = "" # LiveRe UID                  # 来必力
 # Isso: https://posativ.org/isso/
 [isso]
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
-enable = false 
+enable = false
 scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 
 [socialOptions]
