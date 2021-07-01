@@ -8,7 +8,7 @@ header:
     title:
       - blog.aiandrox
     subtitle:
-      - 一応技術ブログ。Ruby中心
+      - 技術ブログ。Ruby, Railsその他もろもろ。
     titleColor:
     titleShadow: true
     titleFontSize: 44
@@ -93,4 +93,5 @@ header:
         titleFontSize: 44
         subtitleFontSize: 16
         spaceBetweenTitleSubtitle: 20
+description: 技術ブログ。Ruby, Railsその他もろもろ。
 ---

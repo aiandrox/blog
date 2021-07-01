@@ -1,6 +1,6 @@
 custom_css = []
 custom_js = []
-description = "一応技術ブログ。Ruby中心"
+description = "技術ブログ。Ruby, Railsその他もろもろ。"
 logoText = "blog.aiandrox"
 logoType = "short" # long, short
 meta_image = ""

@@ -1,7 +1,8 @@
+{{ $description := .Description | default (replaceRE "\n" " " (.Summary | truncate 170)) }}
 {{ range .AlternativeOutputFormats }}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" title="{{ .Name }}" href="{{ .Permalink | safeURL }}">
 {{ end }}
-<meta name="description" content="{{ $.Param "description" }}" />
+<meta name="description" content="{{ $description }}" />
 {{ with $.Params.keywords }}
 <meta name="keywords" content="{{ delimit $.Params.keywords "," }}">
 {{ end }}
@@ -22,7 +23,7 @@
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:url" content="{{ .Permalink | absLangURL }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-<meta property="og:description" content="{{ $.Param "description" }}">
+<meta property="og:description" content="{{ $description }}">
 {{ if .Params.meta_image }}
   {{ with .Params.meta_image }}
     <meta property="og:image" content="{{ . | absURL }}">
@@ -30,7 +31,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="{{ $.Site.Title }}">
     <meta property="twitter:title" content="{{ $.Param "title" }}">
-    <meta property="twitter:description" content="{{ $.Param "description" }}">
+    <meta property="twitter:description" content="{{ $description }}">
   {{ end }}
 {{ else if .Params.image }}
   {{ with .Params.image }}
@@ -39,7 +40,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="{{ $.Site.Title }}">
     <meta property="twitter:title" content="{{ $.Param "title" }}">
-    <meta property="twitter:description" content="{{ $.Param "description" }}">
+    <meta property="twitter:description" content="{{ $description }}">
   {{ end }}
 {{ else if $.Param "meta_image" }}
   {{ with $.Param "meta_image" }}
@@ -48,7 +49,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:app:name:iphone" content="{{ $.Site.Title }}">
     <meta property="twitter:title" content="{{ $.Param "title" }}">
-    <meta property="twitter:description" content="{{ $.Param "description" }}">
+    <meta property="twitter:description" content="{{ $description }}">
   {{ end }}
 {{ end }}
 {{ hugo.Generator }}
