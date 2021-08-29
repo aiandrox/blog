@@ -167,10 +167,6 @@
       }
 
       @include transition(all, 0.2s, ease-out);
-      @include on-event {
-        @include box-shadow(1px, 1px, 3px, 0px, rgba(0, 0, 0, 0.25));
-        background-color: rgba(125, 125, 125, 0.1);
-      }
     }
 
     &-wrapper {
