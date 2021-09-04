@@ -8,13 +8,13 @@ other = "2006-01-02"
 other = "分で読めます"
 
 [tags]
-other = "タグ"
+other = "Tag"
 
 [categories]
-other = "カテゴリー"
+other = "Category"
 
 [series]
-other = "シリーズ"
+other = "Series"
 
 [archive-dateformat]
 other = "01-02"
