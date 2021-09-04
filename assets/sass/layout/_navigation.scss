@@ -182,10 +182,10 @@
 
     &-link {
       @include themify($themes) {
-        color: themed("navbar-title-color");
+        color: themed("terms-title-color");
         @include on-event {
           text-decoration: none;
-          color: themed("navbar-title-color");
+          color: themed("terms-title-color");
         }
       }
     }
