@@ -171,6 +171,7 @@
         color: themed("toc-title-color");
         &.active {
           color: themed("toc-vertical-line-active");
+          font-weight: 700;
         }
       }
     }
