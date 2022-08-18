@@ -25,6 +25,9 @@
       {{ .Content }}
     </article>
 
+    {{ partial "script/codeblock-script" . }}
+    {{ partial "body/share" . }}
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1391068561417780" crossorigin="anonymous"></script>
     <!-- 記事内広告 -->
     <ins class="adsbygoogle"
@@ -37,8 +40,6 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
 
-    {{ partial "script/codeblock-script" . }}
-    {{ partial "body/share" . }}
     {{ partial "body/donation" . }}
     {{ partial "body/whoami" . }}
     {{ partial "body/related" . }}
@@ -55,6 +56,7 @@
 {{ if and (or ($.Param "enableToc") ($.Param "toc")) (ne ($.Param "tocPosition") "outer") }}
 <aside class="single__side {{ if or ($.Param "enableToc") ($.Param "toc") }}main-side{{ end }}">
   {{ partial "sidebar/sidebar-single" . }}
+  ほあｇろｓｄｆｄ
 </aside>
 {{ end }}
 <script>
