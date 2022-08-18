@@ -24,7 +24,9 @@
       {{ partial "body/toc" . }}
       {{ .Content }}
     </article>
-    
+
+    {{ partial "google/display-unit" . }}
+
     {{ partial "script/codeblock-script" . }}
     {{ partial "body/share" . }}
     {{ partial "body/donation" . }}
@@ -53,7 +55,7 @@
   var enableToc = JSON.parse({{ $enableToc | jsonify }});
   var toc = JSON.parse({{ $toc | jsonify }});
   var tocPosition = JSON.parse({{ $tocPosition | jsonify }});
-  
+
   var singleMainElem = document.querySelector('.single__main');
   var singleSideElem = document.querySelector('.single__side');
 
