@@ -14,6 +14,9 @@
   <div class="single {{ if $.Param "hideSingleContentsWhenJSDisabled" }}hide{{ end }}">
     <div class="single__nojs">{{ i18n "nojs-message" }}</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
+
+    {{ partial "body/caution" . }}
+
     <h2 class="single__title" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">{{ .Title }}</h2>
     <div class="single__meta">
       {{ partial "body/infos" . }}

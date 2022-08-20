@@ -1,0 +1,15 @@
+<div class="single__caution">
+  <span>⚠️</span>
+  <p>
+    この記事は1年以上前に書かれました。内容が古くなっている可能性がありますのでご注意ください。
+  </p>
+</div>
+<script>
+  const singleDate = Date.parse({{ .Date }});
+  const oneYearAgo = new Date;
+  oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
+  if (singleDate > oneYearAgo) {
+    const caution = document.querySelector('.single__caution');
+    caution.classList.replace("single__caution", "hide");
+  }
+</script>

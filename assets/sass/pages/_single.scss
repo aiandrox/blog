@@ -62,6 +62,19 @@
     padding: 0 0.125rem;
   }
 
+  &__caution {
+    display: flex;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    background-color: #f7dce5;
+    padding: 12px;
+  }
+  &__caution span {
+    color: #8f6672;
+    margin-right: 4px;
+  }
+
   &__nojs {
     width: 100%;
     color: red;
