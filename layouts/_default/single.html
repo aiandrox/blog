@@ -20,15 +20,6 @@
       {{ partial "body/tags" . }}
       {{ partial "edit-this-page" . }}
     </div>
-
-    <!-- 記事内広告 -->
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-1391068561417780"
-        data-ad-slot="6146997295"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-
     <article class="single__contents" data-dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
       {{ partial "body/toc" . }}
       {{ .Content }}
@@ -37,17 +28,7 @@
     {{ partial "script/codeblock-script" . }}
     {{ partial "body/share" . }}
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1391068561417780" crossorigin="anonymous"></script>
-    <!-- 記事内広告 -->
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-1391068561417780"
-        data-ad-slot="6146997295"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    {{ partial "google/display-unit-sidebar" . }}
 
     {{ partial "body/donation" . }}
     {{ partial "body/whoami" . }}
