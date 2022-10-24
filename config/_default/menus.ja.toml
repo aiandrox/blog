@@ -38,11 +38,11 @@ name = "Posts"
 url = "posts"
 weight = 5
 
-[[main]]
-identifier = "services"
-name = "Services"
-url = "showcase/web-services"
-weight = 6
+# [[main]]
+# identifier = "services"
+# name = "Services"
+# url = "showcase/web-services"
+# weight = 6
 
 # [[main]]
 # identifier = "publication"
