@@ -1,12 +1,13 @@
 .whoami {
-  padding: 0 1rem;
-  margin: 1rem 0;
+  padding: 1rem;
+  margin: 0 auto;
   border-radius: 0.25rem;
-  width: 100%;
+  width: 40%;
 
   @include flexbox();
   @media only screen and (max-width: 769px) {
     align-items: center;
+    width: 100%;
     @include align-items(center);
     @include flex-direction(column);
   }
