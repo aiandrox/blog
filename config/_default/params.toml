@@ -19,8 +19,13 @@ hideSingleContentsWhenJSDisabled = false
 minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
 viewportSize = "normal" # widest, wider, wide, normal, narrow
 
+# appbar
+enableAppbarSearchIcon = true
+enableAppbarLangIcon = false
+
 # header
-homeHeaderType = "text" # text, img, slide
+homeHeaderType = "text" # text, img, slide, typewriter
+hideHomeHeaderWhenMobile = false
 
 # menu
 showMobileMenuTerms = ["categories", "tags", "series"]
@@ -30,8 +35,6 @@ archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 archivePaginate = 20
 enableBreadcrumb = true
 enableGoToTop = true
-enablePhotoSwipe = true
-enableSearchHighlight = true
 enableWhoami = true
 paginateWindow = 1
 pubPaginate = 20
@@ -39,11 +42,24 @@ summaryShape = "classic" # card, classic, compact
 talksGroupByDate = "2006"
 talksPaginate = 5
 
+writtenTimeIcon = "📅"
+modifiedTimeIcon = "📝"
+readingTimeIcon = "☕"
+authorIcon = "✍️"
+pagePvIcon = "👀"
+pinIcon = "📌"
+tagIcon = "🏷️"
+publicationIcon = "📚"
+typeIcon = "🎯"
+
 # Search
 enableSearch = true
-searchContent = true
-searchDistance = 10000
+searchContent = true # include content to search index
+searchDistance = 10000 # fuse option
 searchResultPosition = "main" # side, main
+enableSearchHighlight = true
+searchThreshold = 0.2 # 0.0: exact match, 1.0: any match
+
 
 # whoami
 bioImageUrl = "/images/whoami/avatar.jpg"
@@ -100,105 +116,103 @@ disqus_shortname = ""
 enableComment = true
 
 [telegram]
-dataLimit = 5
-enable = false
-siteId = ""
+  dataLimit = 5
+  enable = false
+  siteId = ""
 
 [gitment] # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-clientId = "" # Your client ID
-clientSecret = "" # Your client secret
-owner = "" # Your GitHub ID
-repo = "" # The repo to store comments
+  clientId = "" # Your client ID
+  clientSecret = "" # Your client secret
+  owner = "" # Your GitHub ID
+  repo = "" # The repo to store comments
 
 [utterances] # https://utteranc.es/
-owner = "aiandrox" # Your GitHub ID
-repo = "blog" # The repo to store comments
+  owner = "aiandrox" # Your GitHub ID
+  repo = "blog" # The repo to store comments
 
 [gitalk] # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
-clientId = "" # Your client ID
-clientSecret = "" # Your client secret
-owner = "" # Your GitHub ID
-repo = "" # The repo to store comments
+  clientId = "" # Your client ID
+  clientSecret = "" # Your client secret
+  owner = "" # Your GitHub ID
+  repo = "" # The repo to store comments
 
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 [valine]
-appId = '你的appId'
-appKey = '你的appKey'
-avatar = 'mm'
-enable = false
-notify = false # mail notifier , https://github.com/xCss/Valine/wiki
-placeholder = '说点什么吧...'
-verify = false # Verification code
-visitor = false
+  appId = '你的appId'
+  appKey = '你的appKey'
+  avatar = 'mm'
+  enable = false
+  notify = false # mail notifier , https://github.com/xCss/Valine/wiki
+  placeholder = '说点什么吧...'
+  verify = false # Verification code
+  visitor = false
 
 [changyan]
-changyanAppid = "" # Changyan app id             # 畅言
-changyanAppkey = "" # Changyan app key
+  changyanAppid = "" # Changyan app id             # 畅言
+  changyanAppkey = "" # Changyan app key
 
 [livere]
-livereUID = "" # LiveRe UID                  # 来必力
+  livereUID = "" # LiveRe UID                  # 来必力
 
 # Isso: https://posativ.org/isso/
 [isso]
-dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
-enable = false
-scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
+  dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
+  enable = false
+  scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 
 [socialOptions]
-csdn = ""
-dev-to = ""
-douban = ""
-email = "mailto:aiandrox7@gmail.com"
-facebook = ""
-gitea = ""
-github = "https://github.com/aiandrox"
-gitlab = ""
-google-plus = ""
-google-scholar = ""
-instagram = ""
-jianshu = ""
-linkedin = ""
-mastodon = ""
-matrix = ""
-medium = ""
-note = "https://note.com/aiandrox"
-phone = ""
-pinterest = ""
-qiita = "https://qiita.com/aiandrox"
-signal = ""
-stack-exchange = ""
-stack-overflow = ""
-steam = ""
-telegram = ""
-tumblr = ""
-twitter = "http://twitter.com/aiandrox"
-weibo = ""
-whatsapp = ""
-xmpp = ""
-youtube = ""
-zhihu = ""
+  email = "mailto:your@email.com"
+  phone = ""
+  facebook = "http://example.org/"
+  twitter = "http://example.org/"
+  github = "https://github.com/zzossig/hugo-theme-zzo"
+  stack-overflow = ""
+  instagram = ""
+  google-plus = ""
+  youtube = ""
+  medium = ""
+  tumblr = ""
+  linkedin = ""
+  pinterest = ""
+  stack-exchange = ""
+  telegram = ""
+  steam = ""
+  weibo = ""
+  douban = ""
+  csdn = ""
+  gitlab = ""
+  mastodon = ""
+  jianshu = ""
+  zhihu = ""
+  signal = ""
+  whatsapp = ""
+  matrix = ""
+  xmpp = ""
+  dev-to = ""
+  gitea = ""
+  google-scholar = ""
 
 [donationOptions]
-alipay = ""
-enable = false
-patreon = ""
-paypal = ""
-wechat = ""
+  enable = false
+  alipay = ""
+  wechat = ""
+  paypal = ""
+  patreon = ""
 
-# possible share name: ["facebook","twitter", "hatebu", "reddit", "linkedin", "tumblr", "weibo", "douban", "line"]
+# possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "pocket", "feedly", "hatena", "pinterest", "delicious", "google"]
 [[share]]
-name = "facebook"
-username = ""
+  name = "facebook"
+  username = ""
 [[share]]
-name = "twitter"
+  name = "twitter"
 [[share]]
-name = "hatebu"
+  name = ""
 
 [[footerLinks]]
-link = ""
-name = ""
+  link = ""
+  name = ""
 [[footerLinks]]
-link = ""
-name = ""
+  link = ""
+  name = ""
