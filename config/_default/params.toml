@@ -208,7 +208,7 @@ enableComment = true
 [[share]]
   name = "twitter"
 [[share]]
-  name = ""
+  name = "hatena"
 
 [[footerLinks]]
   link = ""
