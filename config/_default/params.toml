@@ -42,7 +42,7 @@ talksPaginate = 5
 # Search
 enableSearch = true
 searchContent = true
-searchDistance = 100
+searchDistance = 10000
 searchResultPosition = "main" # side, main
 
 # whoami
