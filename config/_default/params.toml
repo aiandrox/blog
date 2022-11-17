@@ -163,11 +163,13 @@ enableComment = true
   scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 
 [socialOptions]
-  email = "mailto:your@email.com"
+  email = "mailto:aiandrox7@gmail.com"
   phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+  facebook = ""
+  github = "https://github.com/aiandrox"
+  note = "https://note.com/aiandrox"
+  qiita = "https://qiita.com/aiandrox"
+  twitter = "http://twitter.com/aiandrox"
   stack-overflow = ""
   instagram = ""
   google-plus = ""
