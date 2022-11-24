@@ -1,4 +1,6 @@
 ---
+title: blog.aiandrox
+description: 技術ブログ。Ruby, Railsその他もろもろ。
 header:
   - type: text
     height: 200
@@ -93,6 +95,4 @@ header:
         titleFontSize: 44
         subtitleFontSize: 16
         spaceBetweenTitleSubtitle: 20
-title: blog.aiandrox
-description: 技術ブログ。Ruby, Railsその他もろもろ。
 ---
