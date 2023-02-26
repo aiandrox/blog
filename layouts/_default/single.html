@@ -15,8 +15,6 @@
     <div class="single__nojs">{{ i18n "nojs-message" }}</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
 
-    {{ partial "google/display-unit" (dict "slot" "2840041864" ) }}
-
     {{ partial "body/caution" . }}
 
     <h2 class="single__title" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">{{ .Title }}</h2>
@@ -26,6 +24,9 @@
       {{ partial "body/tags" . }}
       {{ partial "body/edit-this-page" . }}
     </div>
+
+    {{ partial "google/display-unit" (dict "slot" "2840041864" ) }}
+
     <article class="single__contents" data-dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
       {{ partial "body/toc" . }}
       {{ .Content }}
@@ -36,7 +37,6 @@
     {{ partial "body/share" . }}
 
     {{ partial "google/display-unit" (dict "slot" "6146997295" ) }}
-    {{ partial "google/display-unit-script" . }}
 
     {{ partial "body/donation" . }}
     {{ partial "body/whoami" . }}
