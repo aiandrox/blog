@@ -25,7 +25,7 @@
       {{ partial "body/edit-this-page" . }}
     </div>
 
-    {{ partial "google/display-unit" (dict "slot" "2840041864" ) }}
+    {{ partial "google/display-unit" (dict "slot" "2840041864" "format" "auto" ) }}
 
     <article class="single__contents" data-dir="{{ if ne ($.Param "languagedir") "rtl" }}ltr{{ else }}rtl{{ end }}" data-ani="{{ $.Site.Params.enableUiAnimation | default "true" }}">
       {{ partial "body/toc" . }}
@@ -36,7 +36,7 @@
     {{ partial "script/codeblock-script" . }}
     {{ partial "body/share" . }}
 
-    {{ partial "google/display-unit" (dict "slot" "6146997295" ) }}
+    {{ partial "google/display-unit" (dict "slot" "3765276578" "format" "autorelaxed" ) }}
 
     {{ partial "body/donation" . }}
     {{ partial "body/whoami" . }}
